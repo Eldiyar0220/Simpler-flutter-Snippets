@@ -26,28 +26,28 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 
 | Snippet    | Description                                                                      |
 | ---------- | -------------------------------------------------------------------------------- |
-| `fstful`   | StatefulWidget snippet. This is an alternative of `stful`                        |
-| `fstless`  | StatelessWidget snippet. This is an alternative of `stless`                      |
-| `fscaff`   | Scaffold widget snippet                                                          |
-| `fedgall`  | EdgeInsets widget snippet with named constructor `all`                           |
-| `fedgonly` | EdgeInsets widget snippet with named constructor `only`                          |
-| `ftxt`     | Text widget snippet                                                              |
-| `finitlf`  | Flutter initState lifecycle method snippet                                       |
-| `fic`      | Flutter Icon widget snippet                                                      |
-| `fcont`    | Flutter Container widget snippet                                                 |
-| `fcent`    | Flutter Center widget snippet                                                    |
-| `frow`     | Flutter Row widget snippet                                                       |
-| `fcol`     | Flutter Column widget snippet                                                    |
-| `fex`      | Expand widget snippet                                                            |
-| `fszbw`    | SizedBox widget snippet with just width argument                                 |
-| `fszbh`    | SizedBox widget snippet with just height argument                                |
-| `fszb`     | SizedBox widget with width and height arguments                                  |
-| `fedgsym`  | EdgeInsets widget with named constructor `symmetric`                             |
-| `fedgsymv` | EdgeInsets widget with named constructor `symmetric` with `vertical` parameter   |
-| `fedgsymh` | EdgeInsets widget with named constructor `symmetric` with `horizontal` parameter |
-| `fimpmat`  | Add material's package import statement                                          |
-| `fstream`  | Display a StreamBuilder widget                                                   |
-| `felbtn`   | Flutter ElevatedButton snippet                                                   |
+| `ftxt -->`            | Text()                       
+| `fcontainer -->`      | Container()                    
+| `fnav -->`            | Navigation.push()                                                       
+| `stateFullWidget -->` | stateFullWidget
+| `stateLessWidget -->` | stateLessWidget
+| `fic -->`             | Flutter Icon                                                               
+| `ficbtn -->`          | Flutter Icon Btn
+| `caaaaa -->`          | crossAxisAlignment: CrossAxisAlignment.baseline,
+| `maaaaaa -->`         | mainAxisAlignment: MainAxisAlignment.center,
+| `mainAx -->`          | mainAxisSize: MainAxisSize.min
+| `fsaffold -->`        | Scaffold
+| `1xx -->`             | const SizedBox(height: 10, width: 10,),
+| `1xx-> Shrink`        | SizedBox.shrink()
+| `gridViewB -->`       | GridView.builder
+| `gridViewC -->`       | GridView.count
+| `listViewB -->`       | ListView.builder
+| `listViewS -->`       | ListView.separated
+| `padding ->`          | padding: const EdgeInsets.all(10),/ margin: const EdgeInsets.all(10),
+| `mateApp -->`         | MaterialApp
+| `cupeApp -->`         | CupertinoApp
+| `fedgeAll -->`        | EdgeInsets.all(32.0)
+| `fedgeOnly -->`       | EdgeInsets.only()
 
 ## Release Notes
 
