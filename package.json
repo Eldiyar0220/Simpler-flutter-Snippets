@@ -44,5 +44,8 @@
         "path": "./snippets/functions.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }
