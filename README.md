@@ -24,30 +24,79 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 
 ### Flutter related snippets
 
-| Snippet    | Description                                                                      |
-| ---------- | -------------------------------------------------------------------------------- |
-| `ftxt -->`            | Text()                       
-| `fcontainer -->`      | Container()                    
-| `fnav -->`            | Navigation.push()                                                       
-| `stateFullWidget -->` | stateFullWidget
-| `stateLessWidget -->` | stateLessWidget
-| `fic -->`             | Flutter Icon                                                               
-| `ficbtn -->`          | Flutter Icon Btn
-| `caaaaa -->`          | crossAxisAlignment: CrossAxisAlignment.baseline,
-| `maaaaaa -->`         | mainAxisAlignment: MainAxisAlignment.center,
-| `mainAx -->`          | mainAxisSize: MainAxisSize.min
-| `fsaffold -->`        | Scaffold
-| `1xx -->`             | const SizedBox(height: 10, width: 10,),
-| `1xx-> Shrink`        | SizedBox.shrink()
-| `gridViewB -->`       | GridView.builder
-| `gridViewC -->`       | GridView.count
-| `listViewB -->`       | ListView.builder
-| `listViewS -->`       | ListView.separated
-| `padding ->`          | padding: const EdgeInsets.all(10),/ margin: const EdgeInsets.all(10),
-| `mateApp -->`         | MaterialApp
-| `cupeApp -->`         | CupertinoApp
-| `fedgeAll -->`        | EdgeInsets.all(32.0)
-| `fedgeOnly -->`       | EdgeInsets.only()
+| Snippet Widgets       |Description                                                                 |
+| ----------------------|-----------------------------------------------------------------------     |
+| `stateFullWidget -->` |  StatefulWidget()                                                          |
+| `stateLessWidget -->` |  StatelessWidget()                                                         |
+| `caaaaaa -->`         |  crossAxisAlignment: CrossAxisAlignment.[choice],                          |
+| `maaaaaa -->`         |  mainAxisAlignment: MainAxisAlignment.[choice],                            |
+| `mainAxi -->`         |  mainAxisSize: MainAxisSize.min                                            |
+| `ftxt -->`            |  Text()                                                                    |
+| `fstyle -->`          |  TextStyle()                                                               |
+| `1xHeight -->`        |  const SizedBox(height: [action]),                                         |
+| `1xWidth -->`         |  const SizedBox(width: [action]),                                          |
+| `1xx -->`             |  const SizedBox(width: 10,  height: 10,),                                  |
+| `SizedBox -->`        |  const SizedBox.[choice]()                                                 |
+| `fic -->`             |  const Icon(Icons.clear);                                                  |
+| `ficbtn -->`          |  const IconButton()                                                        |
+| `fcontainer -->`      |  Container()                                                               |
+| `fsaffold -->`        |  Scaffold()                                                                |
+| `listViewB -->`       |  ListView.builder()                                                        |
+| `listViewS -->`       |  ListView.separated()                                                      |
+| `gridViewB -->`       |  GridView.builder()                                                        |
+| `gridViewC -->`       |  GridView.count()                                                          |
+| `pageViewB -->`       |  PageView.builder()                                                        |
+| `padding --> `        |  [choice]: const EdgeInsets.all(10),                                       |
+| `fedgeAll -->`        |  EdgeInsets.all(32.0)                                                      |
+| `fedgeOnly -->`       |  const EdgeInsets.only()                                                   |
+| `fedgSym -->`         |  const EdgeInsets.symmetric(vertical: 8, horizontal: 8,),                  |
+| `felebtn -->`         |  ElevatedButton()                                                          |
+| `fimg -->`            |  Image.[choice|assets,network|];                                           |
+| `borderCircular -->`  |  borderRadius: BorderRadius.circular([action]),                            |
+| `borderAll -->`       |  borderRadius: BorderRadius.all(Radius.circular([action])),                |
+| `fshowDialog -->`     |  showDialog()                                                              |
+
+
+### Flutter Life Cycle related snippets
+
+
+| Snippet Widgets       |Description                                                                 |
+| ----------------------|-----------------------------------------------------------------------     |
+| `lifeInit -->`        |  InitState()                                                               |
+| `lifeDispose -->`     |  Dispose()                                                                 |
+| `lifeReassemble -->`  |  Reassemble()                                                              |
+| `lifeDidChangeD -->`  |  DidChangeD()                                                              |
+| `lifeDidUpdateW -->`  |  DidUpdateW()                                                              |
+| `lifeDiActivate -->`  |  DiActivate()                                                              |
+| `lifeCycle -->`       |  Cycle()                                                                   |
+
+
+### Flutter Dop related snippets
+
+| Snippet Widgets               |Description                                                         |
+| ---------------------------------------------------------------------------------------------      |
+| `fnav -->`                    |  Navigator.push()                                                  |
+| `mateApp -->`                 |  MaterialApp()                                                     |
+| `cupeApp -->`                 |  CupertinoApp()                                                    |
+| `fsvg -->`                    |  SvgPicture.asset()                                                |
+| `flocale -->`                 |  LocaleKeys..tr(),()                                               |
+| `dddddddddddddddddLog --->`   |  log('data: [choice]')                                             |
+| `repo -->`                    |  repository()                                                      |
+| `into -->`                    |  interactor()                                                      |
+| `usecase -->`                 |  usecases()                                                        |
+| `fcontroller -->`             |  controller()                                                      |
+| `context --> read`            |  context.read<>().add();                                           |
+| `context --> router`          |  context.router.push();                                            |
+| `getttttt -->`                |  GetIt.I<>()..add()                                                |
+| `toStr -->`                   |  toString()                                                        |
+| `fSimplerFlutterReCase -->`   |  just cases()                                                      |
+| `trrrrr Repo -->`             |  try - repo()                                                      |
+| `trrrrr Simple -->`           |  try - simple()                                                    |
+| `trrrrr Pro -->`              |  try - dop()                                                       |
+| `futureFunc -->`              |  Future<void>                                                      |
+
+
+
 
 ## Release Notes
 
