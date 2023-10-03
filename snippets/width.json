@@ -1,8 +1,0 @@
-{
-    "Simpler Snippets 10 Width": {
-        "prefix": "1xWidth -->",
-        "body": [
-            "const SizedBox(width: ${1:10}),"
-        ]
-    }
-}
