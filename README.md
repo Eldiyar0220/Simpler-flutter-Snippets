@@ -4,7 +4,7 @@
     <img src="images/vscode.png"/>
   </a>
 
-  <h1>Snippets for Flutter / dart </h1>
+  <h1>Snippets for Flutter </h1>
 </div>
 
 A set of helpful Flutter and Dart commands for day to day Flutter development.
