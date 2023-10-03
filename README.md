@@ -101,8 +101,8 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 ## Release Notes
 
 ### 0.0.2
-  - Life Cycle
   - Widgets
+  - Life Cycle
   - Dop
 ### 0.0.1
 
