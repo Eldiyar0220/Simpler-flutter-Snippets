@@ -74,7 +74,7 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 ### Flutter Dop related snippets
 
 | Snippet Widgets               |Description                                                         |
-| ---------------------------------------------------------------------------------------------      |
+| ------------------------------|--------------------------------------------------------------      |
 | `fnav -->`                    |  Navigator.push()                                                  |
 | `mateApp -->`                 |  MaterialApp()                                                     |
 | `cupeApp -->`                 |  CupertinoApp()                                                    |
