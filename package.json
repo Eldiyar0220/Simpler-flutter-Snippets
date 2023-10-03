@@ -33,19 +33,11 @@
       },
       {
         "language": "dart",
-        "path": "./snippets/height.json"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/width.json"
-      },
-      {
-        "language": "dart",
         "path": "./snippets/life_cycle.json"
       },
       {
         "language": "dart",
-        "path": "./snippets/functions.json"
+        "path": "./snippets/widgets.json"
       }
     ]
   },
