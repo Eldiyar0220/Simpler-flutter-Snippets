@@ -12,6 +12,7 @@ A set of helpful Flutter and Dart commands for day to day Flutter development.
 ## Installation
 
 - Name of Package - Simpler Flutter Snippets -
+- [Visual Studio Code | Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Eldiyar-Dev.simpler-flutter-snippets) 
 
 
 ## Features
