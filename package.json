@@ -6,6 +6,10 @@
   "engines": {
     "vscode": "^1.82.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eldiyar0220/Simpler-flutter-Snippets"
+  },
   "publisher": "Eldiyar-Dev",
   "icon": "images/eldiyar_profile_icon.png",
   "keywords": [
