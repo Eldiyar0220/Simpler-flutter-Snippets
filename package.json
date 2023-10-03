@@ -1,0 +1,48 @@
+{
+  "name": "simpler-flutter-snippets",
+  "displayName": "Simpler Flutter Snippets",
+  "description": "Work Faster",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "publisher": "Eldiyar-Dev",
+  "icon": "images/eldiyar_profile_icon.png",
+  "keywords": [
+    "Flutter",
+    "Dart",
+    "Snippets",
+    "Snip",
+    "Sni",
+    "simpl",
+    "simple",
+    "simpler"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./snippets/dart.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/height.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/width.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/life_cycle.json"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/functions.json"
+      }
+    ]
+  }
+}

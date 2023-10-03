@@ -1,0 +1,77 @@
+---all Commands
+
+
+
+-- DART--------------------------------------------------------------------------------
+
+ftxt -->
+fcontainer -->
+fnav -->
+stateFullWidget -->
+stateLessWidget -->
+fic -->
+ficbtn -->
+caaaaa -->
+maaaaaa -->
+main -->
+fsaffold -->
+1xx -->
+-> Shrink
+gridViewB -->
+gridViewC -->
+listViewB -->
+listViewS -->
+padding -> 
+mateApp -->
+cupeApp -->
+fedgeAll -->
+fedgeOnly -->
+fedgSym -->
+fsvg -->
+felebtn -->
+fimg -->
+flocale -->
+dddddddddddddddddLog --->
+repo -->
+into -->
+usecase -->
+fcontroller -->
+--> read
+--> router
+getttttt -->
+futureFunc -->
+toStr -->
+fSimplerFlutterReCase -->
+pageViewB -->
+borderCircular -->
+borderAll -->
+"fstyle
+"fshowDialog
+
+
+
+-- fucntion--------------------------------------------------------------------------------
+
+trrrrr Repo -->
+trrrrr -->
+trrrrr Pro -->
+
+
+-- height --------------------------------------------------------------------------------
+
+1xHeight -->
+
+-- Width --------------------------------------------------------------------------------
+
+1xWidth -->
+
+
+-- lifeCycle --------------------------------------------------------------------------------
+
+lifeInit -->
+lifeDispose -->
+lifeReassemble -->
+lifeDidChangeD -->
+lifeDidUpdateW -->
+lifeDiActivate -->
+lifeCycle -->

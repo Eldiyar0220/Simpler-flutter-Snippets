@@ -1,0 +1,9 @@
+{
+    "Simpler Snippets 10 Height": {
+        "prefix": "1xHeight -->",
+        "body": [
+            "const SizedBox(height: ${1:10}),"
+        ],
+        "description": "10 Px"
+    }
+}
