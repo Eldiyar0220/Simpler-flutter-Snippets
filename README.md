@@ -60,7 +60,7 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 ### Flutter Life Cycle related snippets
 
 
-| Snippet Widgets       |Description                                                                 |
+| Snippet Cycles        |Description                                                                 |
 | ----------------------|-----------------------------------------------------------------------     |
 | `lifeInit -->`        |  InitState()                                                               |
 | `lifeDispose -->`     |  Dispose()                                                                 |
@@ -100,14 +100,10 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 
 ## Release Notes
 
-### 0.1.8
-
-### 0.1.5
-
-### 0.1.0
-
-
-
+### 0.0.2
+  - Life Cycle
+  - Widgets
+  - Dop
 ### 0.0.1
 
 Initial release
