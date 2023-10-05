@@ -29,13 +29,13 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 | ----------------------|-----------------------------------------------------------------------     |
 | `stateFullWidget -->` |  StatefulWidget()                                                          |
 | `stateLessWidget -->` |  StatelessWidget()                                                         |
-| `caaaaaa -->`         |  crossAxisAlignment: CrossAxisAlignment.[choice],                          |
+| `caaaaaa -->`         |  crossAxisAlignment: CrossAxisAlignment.[choice](),                        |
 | `maaaaaa -->`         |  mainAxisAlignment: MainAxisAlignment.[choice](),                          |
 | `mainAxi -->`         |  mainAxisSize: MainAxisSize.min                                            |
 | `ftxt -->`            |  Text()                                                                    |
 | `fstyle -->`          |  TextStyle()                                                               |
-| `1xHeight -->`        |  const SizedBox(height: [action]),                                         |
-| `1xWidth -->`         |  const SizedBox(width: [action]),                                          |
+| `1xHeight -->`        |  const SizedBox(height: [action]()),                                       |
+| `1xWidth -->`         |  const SizedBox(width: [action]()),                                        |
 | `1xx -->`             |  const SizedBox(width: 10,  height: 10,),                                  |
 | `SizedBox -->`        |  const SizedBox.[choice]()                                                 |
 | `fic -->`             |  const Icon(Icons.clear);                                                  |
@@ -47,14 +47,14 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 | `gridViewB -->`       |  GridView.builder()                                                        |
 | `gridViewC -->`       |  GridView.count()                                                          |
 | `pageViewB -->`       |  PageView.builder()                                                        |
-| `padding --> `        |  [choice]: const EdgeInsets.all(10),                                       |
+| `padding --> `        |  [choice](): const EdgeInsets.all(10),                                     |
 | `fedgeAll -->`        |  EdgeInsets.all(32.0)                                                      |
 | `fedgeOnly -->`       |  const EdgeInsets.only()                                                   |
 | `fedgSym -->`         |  const EdgeInsets.symmetric(vertical: 8, horizontal: 8,),                  |
 | `felebtn -->`         |  ElevatedButton()                                                          |
 | `fimg -->`            |  Image.[choice|assets,network|];                                           |
-| `borderCircular -->`  |  borderRadius: BorderRadius.circular([action]),                            |
-| `borderAll -->`       |  borderRadius: BorderRadius.all(Radius.circular([action])),                |
+| `borderCircular -->`  |  borderRadius: BorderRadius.circular([action]()),                          |
+| `borderAll -->`       |  borderRadius: BorderRadius.all(Radius.circular([action]())),              |
 | `fshowDialog -->`     |  showDialog()                                                              |
 
 
@@ -81,7 +81,7 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 | `cupeApp -->`                 |  CupertinoApp()                                                    |
 | `fsvg -->`                    |  SvgPicture.asset()                                                |
 | `flocale -->`                 |  LocaleKeys..tr(),()                                               |
-| `dddddddddddddddddLog --->`   |  log('data: [choice]')                                             |
+| `dddddddddddddddddLog --->`   |  log('data: [choice]()')                                           |
 | `repo -->`                    |  repository()                                                      |
 | `into -->`                    |  interactor()                                                      |
 | `usecase -->`                 |  usecases()                                                        |
