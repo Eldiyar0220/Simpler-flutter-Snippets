@@ -7,20 +7,10 @@
   <h1>Snippets for Flutter </h1>
 </div>
 
-<div align="center">
-  <h1>Open Apk Folder</h1>
-</div>
-
-![simpler-flutter-tasks-commands](images/Запись%20экрана%202023-10-05%20в%2018.46.20%20(1).gif)
-
-<div align="center">
-  <h1>Open Apk Folder</h1>
-</div>
-
-![simpler-flutter-tasks-commands](images/Запись%20экрана%202023-10-05%20в%2018.46.20.gif)
+![simpler-flutter-snippets](images/simpelr_flutter_snippets.gif)
 
 
-A set of helpful Flutter and Dart commands for day to day Flutter development.
+A set of helpful Flutter and Dart Snippets for day to day Flutter development.
 
 ## Installation
 
@@ -32,7 +22,7 @@ A set of helpful Flutter and Dart commands for day to day Flutter development.
 
 Simply Flutter / Dart Snippets
 
-I'm working hard to select all the day to day widgets, so wait for more commands!.
+I'm working hard to select all the day to day widgets, so wait for more Snippets!.
 
 ### Flutter / Dart related Snippets
 
