@@ -30,7 +30,7 @@ I'm working hard to select all the day to day widgets, so wait for more commands
 | `stateFullWidget -->` |  StatefulWidget()                                                          |
 | `stateLessWidget -->` |  StatelessWidget()                                                         |
 | `caaaaaa -->`         |  crossAxisAlignment: CrossAxisAlignment.[choice],                          |
-| `maaaaaa -->`         |  mainAxisAlignment: MainAxisAlignment.[choice],                            |
+| `maaaaaa -->`         |  mainAxisAlignment: MainAxisAlignment.[choice](),                          |
 | `mainAxi -->`         |  mainAxisSize: MainAxisSize.min                                            |
 | `ftxt -->`            |  Text()                                                                    |
 | `fstyle -->`          |  TextStyle()                                                               |
