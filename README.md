@@ -7,6 +7,19 @@
   <h1>Snippets for Flutter </h1>
 </div>
 
+<div align="center">
+  <h1>Open Apk Folder</h1>
+</div>
+
+![simpler-flutter-tasks-commands](images/Запись%20экрана%202023-10-05%20в%2018.46.20%20(1).gif)
+
+<div align="center">
+  <h1>Open Apk Folder</h1>
+</div>
+
+![simpler-flutter-tasks-commands](images/Запись%20экрана%202023-10-05%20в%2018.46.20.gif)
+
+
 A set of helpful Flutter and Dart commands for day to day Flutter development.
 
 ## Installation
