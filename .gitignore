@@ -1,4 +1,5 @@
 doc
 .snippets
 snippets
+package.json
 **/*.js

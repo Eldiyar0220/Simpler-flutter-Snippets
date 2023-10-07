@@ -21,7 +21,9 @@
     "simpler"
   ],
   "categories": [
-    "Snippets"
+    "Snippets",
+    "Other",
+    "Programming Languages"
   ],
   "contributes": {
     "snippets": [
