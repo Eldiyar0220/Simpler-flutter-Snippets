@@ -2,7 +2,7 @@
   "name": "simpler-flutter-snippets",
   "displayName": "Simpler Flutter Snippets",
   "description": "Work Faster",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -16,10 +16,8 @@
     "Flutter",
     "Dart",
     "Snippets",
-    "Snip",
-    "Sni",
-    "simpl",
-    "simple",
+    "Other",
+    "Programming Languages",
     "simpler"
   ],
   "categories": [
