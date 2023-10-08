@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Release Notes
 
+### 0.0.7
+  - Tween Builder
+  
+  - hide / show 
+    - on vs code menu
+    
 ### 0.0.3-4-6
   - wrappers
     - ValueListableBuilder

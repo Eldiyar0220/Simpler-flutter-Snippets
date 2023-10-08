@@ -105,10 +105,17 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 | ---------------------------------|--------------------------------------------------------------|
 | `Wrap with Value Listenable 😜`  |  ValueListenableBuilder                                      |
 | `Wrap with Future Builder 😂`    |  FutureBuilder                                               |
+| `Tween Builder 😂`               |  Tween Builder                                               |
 
 
 
 ## Release Notes
+### 0.0.7
+  - Tween Builder
+  
+  - hide / show 
+    - on vs code menu
+    
 ### 0.0.3-4-6
   - wrappers
     - ValueListableBuilder
