@@ -4,6 +4,16 @@ All notable changes to the "simpler-flutter-snippets" extension will be document
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## Released
 
-- Initial release
+## Release Notes
+
+### 0.0.3-4-6
+  - wrappers
+    - ValueListableBuilder
+    - FutureBuilder
+### 0.0.2
+  - Widgets
+  - Life Cycle
+  - Dop
+### 0.0.1
