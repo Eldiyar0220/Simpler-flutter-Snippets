@@ -6,8 +6,29 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
-## Release Notes
 
+## Release Notes
+### 0.0.8
+  - Wrappers
+    - StateFullBuilder
+    - AnimatedBuilder
+    - StreamBuilder
+    - SingleChildScrollViewBuilder
+
+  - Snippets
+    - freezed
+    - frow
+    - fcol
+    - flist
+    - fcolorHax
+    - fvalueNotifier
+    - fanimatedBuilder
+    - fvariable
+    - fmap
+    - fset
+    - fgetarr
+    - fsettarr
+    - ff
 ### 0.0.7
   - Tween Builder
   
@@ -23,3 +44,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Life Cycle
   - Dop
 ### 0.0.1
+
+Initial release
+
+**Enjoy!**

@@ -59,7 +59,18 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 | `borderCircular -->`  |  borderRadius: BorderRadius.circular([action]()),                          |
 | `borderAll -->`       |  borderRadius: BorderRadius.all(Radius.circular([action]())),              |
 | `fshowDialog -->`     |  showDialog()                                                              |
-
+| `frow -->`            |  Row       
+| `fcol -->`            |  Column         
+| `flist -->`           |  List<String> listName = [];
+| `fcolorHax -->`       |  Color(0xFF9C27B0),   
+| `fvalueNotifier -->`  |  ValueNotifier customValue = ValueNotifier<bool>(false);
+| `fanimatedBuilder -->`|  late Animation<double> animations;            
+| `fvariable -->`       |  Just Variables  
+| `fmap -->`            |  Map<dynamic, dynamic> mapName = {};
+| `fset -->`            |  Set<dynamic> setName = {};
+| `fgetarr -->`         |  dynamic get name => returnValue;
+| `fsettarr -->`        |  set name(dynamic value) => some = value; 
+| `ff -->`                         
 
 ### Flutter Life Cycle related snippets
 
@@ -98,18 +109,62 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 | `trrrrr Simple -->`           |  try - simple()                                                    |
 | `trrrrr Pro -->`              |  try - dop()                                                       |
 | `futureFunc -->`              |  Future<void>                                                      |
+| `freezed -->`                 |  freezed model                                                     |
 
 ### Flutter related Wrapper
 
-| Wrappers Widgets                 |   Description                                                |
+| Wrappers Widgets              |   Description                   |        visibility on Menu        |
+| ------------------------------|---------------------------------|----------------------------------|
+|`Wrap with Value Listenable`   |  ValueListenableBuilder         |       [default] -  true          |
+|`Wrap with Future Builder`     |  FutureBuilder                  |       [default] -  true          |
+|`Wrap with StateFullBuilder`   |  StateFullBuilder               |       [default] -  true          |
+|`Wrap with Tween Builder`      |  Tween Builder                  |       [default] -  false         |
+|`Wrap with AnimatedBuilder`    |  AnimatedBuilder                |       [default] -  false         |
+|`Wrap with StreamBuilder`      |  StreamBuilder                  |       [default] -  false         |
+|`Wrap with SingleChildScroll`  |  SingleChildScrollViewBuilder   |       [default] -  false         |
+
+
+### Flutter related Imports
+
+| Imports                          |   Description                                                |
 | ---------------------------------|--------------------------------------------------------------|
-| `Wrap with Value Listenable 😜`  |  ValueListenableBuilder                                      |
-| `Wrap with Future Builder 😂`    |  FutureBuilder                                               |
-| `Tween Builder 😂`               |  Tween Builder                                               |
+|`fimport --> MaterialApp`         |  import Material App                                         |                        
+|`fimport --> CupertinoApp`        |  import Cupertino App                                        |                          
+|`fimport --> Provider`            |  import Provider                                             |                                       
+|`fimport --> Locale`              |  import Locale                                               |
+|`fimport --> autRoute g`          |  import autRoute g                                           |        
+|`fimport --> flutter bloc`        |  import flutter bloc                                         |        
+|`fimport --> equatable`           |  import equatable                                            |      
+|`fimport --> injectable`          |  import injectable                                           |  
+| ---------------------------------|--------------------------------------------------------------|      
+
+
+
 
 
 
 ## Release Notes
+### 0.0.8
+  - Wrappers
+    - StateFullBuilder
+    - AnimatedBuilder
+    - StreamBuilder
+    - SingleChildScrollViewBuilder
+
+  - Snippets
+    - freezed
+    - frow
+    - fcol
+    - flist
+    - fcolorHax
+    - fvalueNotifier
+    - fanimatedBuilder
+    - fvariable
+    - fmap
+    - fset
+    - fgetarr
+    - fsettarr
+    - ff
 ### 0.0.7
   - Tween Builder
   
