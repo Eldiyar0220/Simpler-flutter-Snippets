@@ -140,6 +140,19 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 
 
+`Wrappers`
+```json
+"SimplerFlutterSnippets.WrapperOnMenu": "show",
+"SimplerFlutterSnippets.Wrappers": {
+    "ValueListenableBuilder": true,
+    "FutureBuilder": true,
+    "StateFullBuilder": true,
+    "SingleChildScrollViewBuilder": false,
+    "TweenBuilder": false,
+    "AnimatedBuilder": false,
+    "StreamBuilder": false
+},
+```
 
 
 
