@@ -165,6 +165,7 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
     - SingleChildScrollViewBuilder
 
   - Snippets
+    - fvalueNotifier
     - freezed
     - frow
     - fcol
