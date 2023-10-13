@@ -157,6 +157,10 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 
 ## Release Notes
+### 0.1.0
+  - added logger
+    - snippets.customLogger add keybinding
+
 ### 0.0.8
   - Wrappers
     - StateFullBuilder
