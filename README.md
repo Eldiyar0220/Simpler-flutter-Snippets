@@ -137,26 +137,35 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 |`fimport --> equatable`           |  import equatable                                            |      
 |`fimport --> injectable`          |  import injectable                                           |  
 | ---------------------------------|--------------------------------------------------------------|      
+### Flutter just logger
+
+| Logger Type                      |   Description                                                |
+| ---------------------------------|--------------------------------------------------------------|
+|`from Clipboard Logger`           |  log(data: ${ from clipboard } )                             |                        
+|`only Interpolation Logger`       |  log(data: ${  } ) - with only interpolation                 |                          
+|`simple Logger`                   |  log(data:) - simple                                         |
 
 
 
 `Wrappers`
 ```json
 "SimplerFlutterSnippets.WrapperOnMenu": "show",
-"SimplerFlutterSnippets.Wrappers": {
-    "ValueListenableBuilder": true,
-    "FutureBuilder": true,
-    "StateFullBuilder": true,
-    "SingleChildScrollViewBuilder": false,
-    "TweenBuilder": false,
-    "AnimatedBuilder": false,
-    "StreamBuilder": false
-},
+"SimplerFlutterSnippets.FutureBuilder": true,
+"SimplerFlutterSnippets.ValueListenableBuilder": true,
+"SimplerFlutterSnippets.StateFullBuilder": true,
+"SimplerFlutterSnippets.TweenBuilder": true,
+"SimplerFlutterSnippets.StreamBuilder": true,
+"SimplerFlutterSnippets.SingleChildScrollViewBuilder": true,
+"SimplerFlutterSnippets.AnimatedBuilder": true,
+"SimplerFlutterSnippets.TypeLogger": "from Clipboard Logger" 
 ```
-
+`SimplerFlutterSnippets.TypeLogger `
+ - working only on keyShorts snippets.customLogger
 
 
 ## Release Notes
+### 0.1.3
+  - ReWrite Settings
 ### 0.1.0
   - added logger
     - snippets.customLogger add keybinding
