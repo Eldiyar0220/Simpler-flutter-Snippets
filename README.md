@@ -164,6 +164,10 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 
 ## Release Notes
+### 0.1.4
+  - Bug Fixed 
+  - Optimized The Extension
+
 ### 0.1.3
   - ReWrite Settings
 ### 0.1.0
