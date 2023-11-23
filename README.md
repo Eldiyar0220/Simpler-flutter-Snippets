@@ -4,12 +4,17 @@
     <img src="images/vscode.png"/>
   </a>
 
-  <h1>Snippets for Flutter </h1>
 </div>
+
+<h1>Snippets for Flutter </h1>
 
 ![simpler-flutter-snippets](images/simpelr_flutter_snippets.gif)
 
 
+
+<h1>Wrappers for Flutter </h1>
+
+![simpler-flutter-snippets](images/wrappers.gif)
 A set of helpful Flutter and Dart Snippets for day to day Flutter development.
 
 ## Installation
