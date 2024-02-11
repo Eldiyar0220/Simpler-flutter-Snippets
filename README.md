@@ -41,6 +41,7 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 | `maaaaaa -->`         |  mainAxisAlignment: MainAxisAlignment.[choice](),                          |
 | `mainAxi -->`         |  mainAxisSize: MainAxisSize.min                                            |
 | `ftxt -->`            |  Text()                                                                    |
+| `frxr -->`            |  Text.rich()                                                                    |
 | `fstyle -->`          |  TextStyle()                                                               |
 | `1xHeight -->`        |  const SizedBox(height: [action]()),                                       |
 | `1xWidth -->`         |  const SizedBox(width: [action]()),                                        |
@@ -82,20 +83,21 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 | Snippet Cycles        |Description                                                                 |
 | ----------------------|-----------------------------------------------------------------------     |
-| `lifeInit -->`        |  InitState()                                                               |
-| `lifeDispose -->`     |  Dispose()                                                                 |
-| `lifeReassemble -->`  |  Reassemble()                                                              |
-| `lifeDidChangeD -->`  |  DidChangeD()                                                              |
-| `lifeDidUpdateW -->`  |  DidUpdateW()                                                              |
-| `lifeDiActivate -->`  |  DiActivate()                                                              |
-| `lifeCycle -->`       |  Cycle()                                                                   |
+| `flifeInit -->`        |  InitState()                                                               |
+| `flifeDispose -->`     |  Dispose()                                                                 |
+| `flifeReassemble -->`  |  Reassemble()                                                              |
+| `flifeDidChangeD -->`  |  DidChangeD()                                                              |
+| `flifeDidUpdateW -->`  |  DidUpdateW()                                                              |
+| `flifeDiActivate -->`  |  DiActivate()                                                              |
+| `flifeCycle -->`       |  Cycle()                                                                   |
 
 
 ### Flutter Dop related snippets
 
 | Snippet Widgets               |Description                                                         |
 | ------------------------------|--------------------------------------------------------------      |
-| `fnav -->`                    |  Navigator.push()                                                  |
+| `fnav material -->`           |  Navigator.push() material                                         |
+| `fnav cupertino -->`          |  Navigator.push() cupertino                                        |
 | `mateApp -->`                 |  MaterialApp()                                                     |
 | `cupeApp -->`                 |  CupertinoApp()                                                    |
 | `fsvg -->`                    |  SvgPicture.asset()                                                |
@@ -115,6 +117,7 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 | `trrrrr Pro -->`              |  try - dop()                                                       |
 | `futureFunc -->`              |  Future<void>                                                      |
 | `freezed -->`                 |  freezed model                                                     |
+| `fhiveModel -->`              |  hive model                                                        |
 
 ### Flutter related Wrapper
 
@@ -127,6 +130,9 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 |`Wrap with AnimatedBuilder`    |  AnimatedBuilder                |       [default] -  false         |
 |`Wrap with StreamBuilder`      |  StreamBuilder                  |       [default] -  false         |
 |`Wrap with SingleChildScroll`  |  SingleChildScrollViewBuilder   |       [default] -  false         |
+|`Wrap with Expanded`           |  Expanded                       |       [default] -  false         |
+|`Wrap with Flexible`           |  Flexible                       |       [default] -  false         |
+|`Wrap with FittedBox`          |  FittedBox                      |       [default] -  false         |
 
 
 ### Flutter related Imports
@@ -146,8 +152,8 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 | Logger Type                      |   Description                                                |
 | ---------------------------------|--------------------------------------------------------------|
-|`from Clipboard Logger`           |  log(data: ${ from clipboard } )                             |                        
-|`only Interpolation Logger`       |  log(data: ${  } ) - with only interpolation                 |                          
+|`from Clipboard Logger`           |  log(data-unique: ${ from clipboard } )                      |                        
+|`only Interpolation Logger`       |  log(data-unique: ${  } ) - with only interpolation          |                          
 |`simple Logger`                   |  log(data:) - simple                                         |
 
 
@@ -169,6 +175,19 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 
 ## Release Notes
+### 0.1.7
+  - frxr -> Text.rich()
+  - wrapeers command + shift + e -> 
+    - expanded, 
+    - flexible,
+    - fittedBox
+  - wrapper command + shift + s 
+    - SingleChildScrollView
+    - Padding  
+  - fhiveModel - hive Model
+  - fnav cupertino - Navigator - Cupertino
+  - changed Log'a String to data-unique
+
 ### 0.1.5
   - Changed Log's String -> data to <CopyClipBoard>
 
