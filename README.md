@@ -175,6 +175,9 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 
 ## Release Notes
+### 0.1.8
+  - fixed increment the logger
+  
 ### 0.1.7
   - frxr -> Text.rich()
   - wrapeers command + shift + e -> 
