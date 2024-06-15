@@ -103,29 +103,34 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 | `fsvg -->`                    |  SvgPicture.asset()                                                |
 | `flocale -->`                 |  LocaleKeys..tr(),()                                               |
 | `dddddddddddddddddLog --->`   |  log('data: [choice]()')                                           |
-| `repo -->`                    |  repository()                                                      |
-| `into -->`                    |  interactor()                                                      |
 | `usecase -->`                 |  usecases()                                                        |
 | `fcontroller -->`             |  controller()                                                      |
 | `context --> read`            |  context.read<>().add();                                           |
 | `context --> router`          |  context.router.push();                                            |
-| `getttttt -->`                |  GetIt.I<>()..add()                                                |
+| `fgetttttt -->`                |  GetIt.I<>()..add()                                                |
 | `toStr -->`                   |  toString()                                                        |
 | `fSimplerFlutterReCase -->`   |  just cases()                                                      |
-| `trrrrr Repo -->`             |  try - repo()                                                      |
-| `trrrrr Simple -->`           |  try - simple()                                                    |
-| `trrrrr Pro -->`              |  try - dop()                                                       |
 | `futureFunc -->`              |  Future<void>                                                      |
 | `freezed -->`                 |  freezed model                                                     |
 | `fhiveModel -->`              |  hive model                                                        |
+
+deleted in version 0.1.9
+| `trrrrr Repo -->`             |  try - repo()                                                      |
+| `trrrrr Simple -->`           |  try - simple()                                                    |
+| `trrrrr Pro -->`              |  try - dop()                                                       |
+| `repo -->`                    |  repository()                                                      |
+| `into -->`                    |  interactor()                                                      |
 
 ### Flutter related Wrapper
 
 | Wrappers Widgets              |   Description                   |        visibility on Menu        |
 | ------------------------------|---------------------------------|----------------------------------|
 |`Wrap with Value Listenable`   |  ValueListenableBuilder         |       [default] -  true          |
-|`Wrap with Future Builder`     |  FutureBuilder                  |       [default] -  true          |
-|`Wrap with StateFullBuilder`   |  StateFullBuilder               |       [default] -  true          |
+|`Wrap with Cubit/Bloc Builder` |  Cubit/Bloc Builder             |       [default] -  false         |
+|`Wrap with Cubit/Bloc Consumer`|  Cubit/Bloc Consumer            |       [default] -  false         |
+|`Wrap with Stack Widget`       |  Stack                          |       [default] -  true          |
+|`Wrap with Future Builder`     |  FutureBuilder                  |       [default] -  false         |
+|`Wrap with StateFullBuilder`   |  StateFullBuilder               |       [default] -  false         |
 |`Wrap with Tween Builder`      |  Tween Builder                  |       [default] -  false         |
 |`Wrap with AnimatedBuilder`    |  AnimatedBuilder                |       [default] -  false         |
 |`Wrap with StreamBuilder`      |  StreamBuilder                  |       [default] -  false         |
@@ -168,6 +173,9 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 "SimplerFlutterSnippets.StreamBuilder": true,
 "SimplerFlutterSnippets.SingleChildScrollViewBuilder": true,
 "SimplerFlutterSnippets.AnimatedBuilder": true,
+"SimplerFlutterSnippets.CubitBuilder": true,
+"SimplerFlutterSnippets.CubitConsumer": true,
+"SimplerFlutterSnippets.WrapperStack": true,
 "SimplerFlutterSnippets.TypeLogger": "from Clipboard Logger" 
 ```
 `SimplerFlutterSnippets.TypeLogger `
@@ -175,6 +183,12 @@ I'm working hard to select all the day to day widgets, so wait for more Snippets
 
 
 ## Release Notes
+### 0.1.9
+  - added new Wrappers with auto imports
+    - Stack
+    - Cubit/Bloc Builder
+    - Cubit/Bloc Consumer
+  - to snippet "listViewS" add default SIzedBox
 ### 0.1.8
   - fixed increment the logger
   
