@@ -7,8 +7,31 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## Released
 
 
-
 ## Release Notes
+### 0.2.4 
+  - added auto IMPORTS when clicking the Widget 
+    - SimplerFlutterSnippets.selectedImport = true [restart the vs code]
+      - BlocProvider
+      - BlocListener
+      - BlocBuilder
+      - BlocSelector
+      - BlocConsumer
+      - RepositoryProvider
+      - read
+      - freezed
+      - GetIt
+      - HiveType
+      - LocaleKeys
+      - tr
+      - AutoRouter
+      - router
+      - singleton
+      - injectable
+      - LazySingleton
+      - Singleton
+      - Injectable
+      - Equatable
+
 ### 0.2.0-0.2.3 (Fixing bugs)
   - little release 
     - added keybinding remove this widget 
