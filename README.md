@@ -184,6 +184,11 @@ deleted in version 0.1.9
 
 
 ## Release Notes
+### 0.2.1
+  - Fixed  
+    - node_modules
+    - xregexp
+    - @vscode/vsce
 ### 0.2.0
   - little release 
     - added keybinding remove this widget 
