@@ -176,6 +176,7 @@ deleted in version 0.1.9
 "SimplerFlutterSnippets.CubitBuilder": true,
 "SimplerFlutterSnippets.CubitConsumer": true,
 "SimplerFlutterSnippets.WrapperStack": true,
+"SimplerFlutterSnippets.removeThisWidget": true,
 "SimplerFlutterSnippets.TypeLogger": "from Clipboard Logger" 
 ```
 `SimplerFlutterSnippets.TypeLogger `
@@ -183,6 +184,11 @@ deleted in version 0.1.9
 
 
 ## Release Notes
+### 0.2.0
+  - little release 
+    - added keybinding remove this widget 
+      - mac cmd+shift+r
+      - winda ctrl+shift+r
 ### 0.1.9
   - added new Wrappers with auto imports
     - Stack
