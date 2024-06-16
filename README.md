@@ -184,12 +184,7 @@ deleted in version 0.1.9
 
 
 ## Release Notes
-### 0.2.1
-  - Fixed  
-    - node_modules
-    - xregexp
-    - @vscode/vsce
-### 0.2.0
+### 0.2.0-0.2.3 (Fixing bugs)
   - little release 
     - added keybinding remove this widget 
       - mac cmd+shift+r
