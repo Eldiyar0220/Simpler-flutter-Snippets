@@ -183,8 +183,56 @@ deleted in version 0.1.9
 `SimplerFlutterSnippets.TypeLogger `
  - working only on keyShorts snippets.customLogger
 
+About auto Imports and auto Quick Fix
+```json
+    "SimplerFlutterSnippets.selectedImport": true,
+    "SimplerFlutterSnippets.autoFix": true,
+    "SimplerFlutterSnippets.FlutterImports": {
+        "targetFileTypes": [
+            "dart"
+        ],
+        "importMappings": [
+            {
+                "imports": [
+                    "import 'package:freezed_annotation/freezed_annotation.dart';"
+                ],
+                "keys": [
+                    "freezed"
+                ]
+            },
+            {
+                "imports": [
+                    "import 'package:flutter/material.dart';"
+                ],
+                "keys": [
+                    "StatefulWidget",
+                    "StatelessWidget"
+                ]
+            }
+        ]
+    },
+```
+
 
 ## Release Notes
+### 0.2.5
+  - updated auto IMPORTS when clicking the Widget 
+  - added new feature selecting auto quick fix
+    - SimplerFlutterSnippets.selectedImport: true
+    - SimplerFlutterSnippets.autoFix: true
+    - SimplerFlutterSnippets.FlutterImports: {
+      - targetFileTypes: ["dart"]
+      - importMappings: [
+        {
+                "imports": [
+                    "import 'package:freezed_annotation/freezed_annotation.dart';"
+                ],
+                "keys": [
+                    "freezed"
+                ]
+            },
+      ]
+    }
 ### 0.2.4 
   - added auto IMPORTS when clicking the Widget 
     - SimplerFlutterSnippets.selectedImport = true [restart the vs code]
