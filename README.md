@@ -1,3 +1,4 @@
+import 'dart:developer';
 # simpler-flutter-snippets README
 <div align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=Eldiyar-Dev.simpler-flutter-tasks">
@@ -213,8 +214,28 @@ About auto Imports and auto Quick Fix
     },
 ```
 
+-- FYI
+keybindings 
+snippets.customLogger - [command + shift + q]
+snippets.expanded - [command + shift + e]
+snippets.flexible - [command + shift + f]
+snippets.emptyWidgetWrap - [command + shift + w]
+snippets.rowColumn - [command + shift + c]
+snippets.toggleAutoFix - [command + shift + x] - true/false
+snippets.removeThisWidget - [command + shift + r]
+snippets.singleChildScrollView - [command + shift + s]
+ValueNotifierBuilder - [command + shift + v]
 
 ## Release Notes
+### 0.2.7
+  - Fixed the cursor that moved down after the wrapper
+### 0.2.6
+  - added toggle Auto Fix to apply quick fixers 
+   - snippets.toggleAutoFix - keybinding [command + shift + x]
+   - deleted auto format
+   - added new key bind snippets
+    - snippets.emptyWidgetWrap - keybinding [command + shift + w]
+    - snippets.rowColumn - keybinding [command + shift + c]
 ### 0.2.5
   - updated auto IMPORTS when clicking the Widget 
   - added new feature selecting auto quick fix
