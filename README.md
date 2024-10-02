@@ -227,6 +227,8 @@ snippets.singleChildScrollView - [command + shift + s]
 ValueNotifierBuilder - [command + shift + v]
 
 ## Release Notes
+### 0.2.8
+  - added new snippets class -->
 ### 0.2.7
   - Fixed the cursor that moved down after the wrapper
 ### 0.2.6
