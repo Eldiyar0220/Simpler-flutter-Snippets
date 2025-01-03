@@ -227,6 +227,57 @@ snippets.singleChildScrollView - [command + shift + s]
 ValueNotifierBuilder - [command + shift + v]
 
 ## Release Notes
+
+### 0.2.9
+  - added log for js
+  - added create custom snippets | key [cmd + shift + a] = path in your project .vscode folder
+  - added delete custom snippets | key [cmd + shift + h]
+  - added list of custom snippets | key [cmd + shift + L]
+  - added create custom Wrappers
+json Example
+```
+"SimplerFlutterSnippets.customWraps": [
+        {
+            "name": "Stack custom -->",
+            "_comment": "your widget -- ${widget} -- | auto select -- ${1:listenable} -- | selection menu -- ${1|start,center|} --",
+            "autoFormat": true,
+            "autoCopy": "",
+            "body": [
+                "  Stack(",
+                "  children: [",
+                "    ${widget}",
+                "  ],",
+                ")"
+            ]
+        },
+        {
+            "name": "Value listenable -->",
+            "autoCopy": "ValueNotifier<bool> customValueX = ValueNotifier<bool>(false);",
+            "autoFormat": true,
+            "body": [
+                "ValueListenableBuilder(",
+                " valueListenable: ${1:listenable},",
+                " builder: (context, value, child) {",
+                "    return ${widget};",
+                " },",
+                ")"
+            ]
+        },
+        {
+            "name": "Column -->",
+            "autoFormat": false,
+            "autoCopy": "",
+            "body": [
+                "Column(",
+                "crossAxisAlignment: CrossAxisAlignment.${1|start,center|},",
+                "children: [",
+                "${widget}",
+                "]",
+                ")"
+            ]
+        }
+    ],
+```
 ### 0.2.8
   - added new snippets class -->
 ### 0.2.7
